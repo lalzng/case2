@@ -1,0 +1,473 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.lilya h1 {
+  margin-bottom: 0;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+.container-fluid div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media all and (min-width: 1000px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    border: 1px solid olive;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+  }
+}
+
+.dropdown-menu > li:hover > a {
+  background-color: transparent;
+  color: olive;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active {
+  color: olive;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+section {
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+section #banner {
+  color: floralwhite;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 160px;
+  right: 150px;
+  color: floralwhite;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+}
+
+.banner-text p {
+  font-size: 16px;
+}
+
+.banner-btn {
+  margin: 0px auto 0;
+}
+
+.banner-btn a {
+  position: relative;
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: floralwhite;
+  border: .5px solid floralwhite;
+  z-index: 1;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.banner-btn a:hover {
+  color: olive;
+  background: floralwhite;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav-item {
+  color: darkolivegreen;
+}
+
+.nav-item .bi {
+  margin: 10px;
+}
+
+.mail-container {
+  padding: 70px 0 70px 0;
+  background-color: antiquewhite;
+}
+
+.mail-content {
+  background-color: white;
+  text-align: justify;
+  color: #000;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+  margin: auto;
+  padding: 30px 100px 30px 100px;
+}
+
+.mail-content .input-group .btn {
+  border-color: darkolivegreen;
+  color: darkolivegreen;
+}
+
+.mail-content .input-group .btn:hover {
+  background-color: darkolivegreen;
+  color: floralwhite;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.socials {
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+  margin: auto;
+  padding: 30px 100px 30px 100px;
+}
+
+.socials .bi {
+  color: black;
+  margin: 10px;
+}
+
+.socials .bi:hover {
+  color: olive;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footerdesc {
+  margin: auto;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.footerdesc h1 {
+  font-size: large;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+.footerdesc p {
+  font-size: small;
+}
+
+.footerdesc hr {
+  margin: auto;
+  color: yellow;
+  opacity: 70%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 10%;
+}
+
+.row {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row .col ul, .row .col h5 {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.row .col h5 {
+  font-size: 16px;
+  line-height: 25px;
+  text-shadow: 2px 2px black;
+}
+
+.row .col ul li a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.row .col ul li a:hover {
+  text-decoration: underline;
+}
+
+#watch-home {
+  margin: auto;
+  padding: 30px 100px 30px 100px;
+}
+
+#watch-home h1 {
+  color: #000;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#watch-home .row .col {
+  margin: 0px 3px 0px 3px;
+  padding-left: 0;
+  padding-right: 0;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+#jewel-home {
+  margin: auto;
+  padding: 30px 100px 30px 100px;
+}
+
+#jewel-home h1 {
+  color: #000;
+  margin-bottom: 30px;
+}
+
+#jewel-home .row .col, #jewel-home .row .col-3 {
+  margin: 0px 3px 0px 3px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 20px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+#storyof {
+  padding: 30px 100px 30px 100px;
+  margin-bottom: 0;
+}
+
+#storyof .storyoftext {
+  position: absolute;
+  bottom: 60px;
+  color: darkolivegreen;
+  padding-left: 50px;
+  padding-right: 720px;
+  text-align: justify;
+}
+
+#storyof .storyoftext h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#storyof .storyoftext p {
+  font-size: 14px;
+}
+
+#testimony {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#testimony .title-text p {
+  color: olive;
+}
+
+#testimony .row {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#testimony .row .col:hover {
+  -webkit-transform: translateY(7px);
+          transform: translateY(7px);
+}
+
+#testimony .row .col {
+  -ms-flex-preferred-size: 28%;
+      flex-basis: 28%;
+  padding: 30px;
+  padding-top: 0;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transform: 0.5s;
+          transform: 0.5s;
+}
+
+#testimony .row .col p {
+  text-align: justify;
+}
+
+#testimony .row .col .user {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#testimony .row .col .user p {
+  text-align: center;
+}
+
+#testimony .row .col .user img {
+  width: 40px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+#testimony .row .col .user .user-info h4 {
+  color: #445626;
+}
+
+#testimony .row .col .user .user-info p {
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: olive;
+}
+
+.product-card:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-card {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0px 3px 0px 3px;
+}
+
+.card, .card-header, .card-body, .card-footer {
+  border-radius: 0px;
+  border: transparent;
+}
+
+.card-body {
+  padding: 25px 20px 20px 20px;
+}
+
+.card-body p {
+  margin-bottom: 0;
+}
+
+.card-body h4 {
+  padding-left: 0;
+  font-size: 20px;
+}
+
+.card-body span {
+  padding: 5px 10px 5px 10px;
+  background-color: darkolivegreen;
+  color: floralwhite;
+  border-radius: 10px;
+}
+
+.card-body #book {
+  font-size: 14px;
+  color: darkolivegreen;
+}
+
+#watches h1, #jew h1, #match h1 {
+  padding-top: 30px;
+}
+
+#match {
+  margin-bottom: 50px;
+}
+
+#match .row .col, #match .row .col-3 {
+  background-color: olive;
+  margin: 0px 3px 0px 3px;
+  padding-left: 0;
+  padding-right: 0;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+#collection {
+  width: 75%;
+  margin-top: 30px;
+}
+
+#collection .coltext {
+  position: absolute;
+  bottom: 50px;
+  color: floralwhite;
+  padding-left: 50px;
+  padding-right: 540px;
+  text-align: justify;
+}
+
+#collection .coltext h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#collection .coltext p {
+  font-size: 14px;
+}
+
+#uni-banner {
+  text-align: left;
+}
+
+.uni-banner-text {
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+  color: #445626;
+  margin-left: 50px;
+  width: 500px;
+}
+
+.uni-banner-text h1 {
+  font-size: 60px;
+}
+
+.uni-banner-text p {
+  font-size: 16px;
+}
+
+#col-banner {
+  text-align: right;
+}
+
+.col-banner-text {
+  position: absolute;
+  bottom: 120px;
+  right: 70px;
+  color: floralwhite;
+  margin-left: 50px;
+  width: 550px;
+}
+
+.col-banner-text h1 {
+  font-size: 60px;
+}
+
+.col-banner-text p {
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */

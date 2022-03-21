@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+// NAVBAR
+
+.lilya {
+    h1 {
+        margin-bottom: 0;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+    }
+
+}
+.container-fluid div {
+    display: flex;
+    justify-content: space-around;
+}
+@media all and (min-width: 1000px) {
+	.navbar .nav-item .dropdown-menu{ 
+        display: none;
+        margin-top:0; 
+    }
+	.navbar .nav-item:hover .dropdown-menu{ 
+        display: block; 
+        border: 1px solid olive; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: 1;
+    }
+}
+
+.dropdown-menu > li:hover > a {
+    background-color: transparent;
+    color: olive;
+    transition: 0.5s;
+}
+.navbar .navbar-nav .nav-link {
+    color: black;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active {
+  color: olive;
+  transition: 0.5s;
+}
+// END OF NAVBAR 
+
+// SECTION 1: BANNER
+section {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    #banner {
+        color: floralwhite;
+    }
+}
+.banner-text {
+    position: absolute;
+    bottom: 160px;
+    right: 150px;
+    color: floralwhite;
+    padding-left: 30px;
+    padding-right: 30px;
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+.banner-btn{
+    margin: 0px auto 0;
+    a{
+    position: relative;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: floralwhite;
+    border: .5px solid floralwhite;
+    z-index: 1;
+    transition: color 0.5s;
+    }
+    a:hover{
+    color: olive;
+    background: floralwhite;
+    transition: 0.5s;
+    }
+}
+// END BANNER
+
+// EXT NAVBAR
+.nav-item {
+    color: darkolivegreen;
+    .bi {
+        margin: 10px;
+    }
+  }
+// END NAVBAR
+
+// FIRST ORDER
+.mail-container {
+    padding: 70px 0 70px 0;
+    background-color: antiquewhite;
+}
+.mail-content {
+    background-color: white;
+    text-align: justify;
+    color: #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin: auto;
+    padding: 30px 100px 30px 100px;
+
+    .input-group .btn {
+        border-color: darkolivegreen;
+        color: darkolivegreen;
+    }
+    .input-group .btn:hover {
+        background-color: darkolivegreen;
+        color: floralwhite;
+        transition: 0.5s;
+    }
+}
+
+.socials {
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin: auto;
+    padding: 30px 100px 30px 100px;
+    
+    .bi {
+        color: black;
+        margin: 10px;
+    }
+    .bi:hover {
+        color: olive;
+        transition: 0.5s;
+    }
+}
+// END FIRST ORDER
+
+// FOOTER
+.footerdesc {
+    // text-align: justify;
+    margin: auto;
+    width: 70%;
+    padding-top: 20px;
+    h1 {
+        font-size: large;
+        font-weight: bold;
+        text-shadow: 2px 2px black;
+    }
+    p {
+        font-size: small;
+    }
+    hr {
+        margin: auto;
+        color: yellow;
+        opacity: 70%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 10%;
+    }
+}
+.row {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .col {
+        
+        ul, h5 {
+            text-align: left;
+            padding-left: 20px;
+        }
+        h5 {
+            font-size: 16px;
+            line-height: 25px;
+            text-shadow: 2px 2px black;
+        }
+        ul li {
+            a {
+                text-decoration: none;
+                font-size: 12px;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            
+        }
+
+    }
+}
+// END FOOTER
+
+// GIOI THIEU DONG HO
+#watch-home {
+    margin: auto;
+    padding: 30px 100px 30px 100px;
+    h1 {
+        color: #000;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .row  {
+        .col {
+            // background-color: olive;
+            margin: 0px 3px 0px 3px;
+            padding-left: 0;
+            padding-right: 0;
+            max-height: 400px;
+            overflow: hidden;
+        }
+    }
+}
+// END GIOI THIEU DONG HO
+
+// GIOI THIEU TRANG SUC
+#jewel-home {
+    margin: auto;
+    padding: 30px 100px 30px 100px;
+    h1 {
+        color: #000;
+        margin-bottom: 30px;
+    }
+    .row {
+        .col, .col-3 {
+            // background-color: olive;
+            margin: 0px 3px 0px 3px;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 20px;
+            max-height: 400px;
+            overflow: hidden;
+        }
+    }
+}
+// END GIOI THIEU TRANG SUC
+
+// STORY OF
+#storyof {
+    padding: 30px 100px 30px 100px;
+    margin-bottom: 0;
+    .storyoftext {
+        position: absolute;
+        bottom: 60px;
+        // right: 150px;
+        color: darkolivegreen;
+        padding-left: 50px;
+        padding-right: 720px;
+        text-align: justify;
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}
+// END STORY OF
+
+// TESTIMONY
+#testimony{
+    width: 100%;
+    margin-bottom: 30px;
+    .title-text p {
+        color: olive;
+    }
+    .row {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        .col:hover{
+            transform: translateY(7px);
+        }
+        .col {
+            flex-basis: 28%;
+            padding: 30px;
+            padding-top: 0;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            // box-shadow: 0 10px 20px 3px #efefef;
+            cursor: pointer;
+            transform: 0.5s;
+            p {
+                text-align: justify;
+            }
+            .user{
+                align-items: center;
+                p {
+                    text-align: center;
+                }
+                img{
+                    width: 40px;
+                    margin-right: 20px;
+                    border-radius: 3px;
+                }
+                .user-info {
+                    h4 {
+                        color: #445626;
+                        // text-shadow: 2px 2px lightgrey;
+                    }
+                    p {
+                        font-size: 12px;
+                        margin-bottom: 20px;
+                        color: olive;
+                    }
+                }
+              }
+        }
+    }
+  }
+// END TESTIMONY
+
+.product-card:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.product-card{
+    padding-left: 0;
+    padding-right: 0;
+    // padding-bottom: 20px;
+    margin: 0px 3px 0px 3px;
+}
+.card, .card-header, .card-body, .card-footer {
+        border-radius: 0px;
+        border: transparent;
+    }
+.card-body {
+    padding: 25px 20px 20px 20px;
+    p {
+        margin-bottom: 0;
+        // text-align: right;
+    }
+    h4 {
+        padding-left: 0;
+        font-size: 20px;
+        // text-align: right;
+    }
+    span {
+        padding: 5px 10px 5px 10px;
+        background-color: darkolivegreen;
+        color: floralwhite;
+        border-radius: 10px;
+    }
+    #book {
+        font-size: 14px;;
+        color: darkolivegreen;
+    }
+} 
+
+// UNIVERSE
+#watches, #jew, #match {
+    h1 {
+        padding-top: 30px;
+    }
+}
+#match {
+    margin-bottom: 50px;
+    .row  {
+        .col, .col-3 {
+            background-color: olive;
+            margin: 0px 3px 0px 3px;
+            padding-left: 0;
+            padding-right: 0;
+            max-height: 400px;
+            overflow: hidden;
+        }
+    }
+}
+// COLLECTION
+
+#collection {
+    width: 75%;
+    // padding: 30px 100px 30px 100px;
+    margin-top: 30px;
+    // margin-bottom: 10px
+    .coltext {
+        position: absolute;
+        bottom: 50px;
+        // right: 150px;
+        color: floralwhite;
+        padding-left: 50px;
+        padding-right: 540px;
+        text-align: justify;
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}
+// UNI BANNER
+#uni-banner {
+    text-align: left;
+}
+.uni-banner-text {
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    color: #445626;
+    margin-left: 50px;
+    width: 500px;
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+// COL BANNER
+#col-banner {
+    text-align: right;
+}
+.col-banner-text {
+    position: absolute;
+    bottom: 120px;
+    right: 70px;
+    color: floralwhite;
+    margin-left: 50px;
+    width: 550px;
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
